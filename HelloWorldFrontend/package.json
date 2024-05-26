@@ -1,0 +1,19 @@
+{
+  "name": "day2-helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "static-server public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "static-server": "^2.2.1",
+    "web3": "^4.9.0"
+  }
+}
