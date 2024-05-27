@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "welcome",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implements voting process along with vote delegation",
+			"kind": "dev",
+			"methods": {},
+			"title": "Ballot",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hello.sol": "Hello"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hello.sol": {
+			"keccak256": "0x1df71ab73540bafe7e821ca188765ce79cc9f0d9af5362fb3016224d0f04c536",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://914ecb8aaf779dd4e69645ee90a162d8f824b889177451658090af50c0879fb1",
+				"dweb:/ipfs/QmWjTvBmh7XMfhiwNsvH5pZ96tkSPAP2usHKGt1dPAtAT1"
+			]
+		}
+	},
+	"version": 1
+}
